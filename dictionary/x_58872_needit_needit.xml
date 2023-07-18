@@ -11,6 +11,7 @@
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
                 <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
+                <element inactive_on_update="false" label="Security" sequence="3" value="security"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
@@ -23,7 +24,9 @@
                 <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
                 <element inactive_on_update="false" label="Legal 1" sequence="4" value="legal1"/>
                 <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal2"/>
-                <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+                <element inactive_on_update="false" label="Security 1" sequence="6" value="security 1"/>
+                <element inactive_on_update="false" label="Security 2" sequence="7" value="security 2"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
             </choice>
         </element>
         <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
